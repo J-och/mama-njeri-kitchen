@@ -1,0 +1,119 @@
+﻿HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Njeri's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mama Njeri's Kitchen</h1>
+    <p>Delicious Traditional Kenyan Food</p>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Welcome to Mama Njeri's Kitchen</h2>
+    <p>Enjoy freshly prepared Kenyan meals made with love.</p>
+    <a href="#menu" class="btn">View Our Menu</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Mama Njeri's Kitchen is dedicated to serving delicious,
+        fresh and affordable traditional Kenyan meals.
+        We prepare our food with love to give our customers
+        a memorable experience.
+    </p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-item">
+            <h3>Pilau</h3>
+            <p>Delicious Kenyan spiced rice.</p>
+            <strong>KES 350</strong>
+        </div>
+
+        <div class="menu-item">
+            <h3>Ugali & Sukuma</h3>
+            <p>Traditional ugali served with fresh sukuma wiki.</p>
+            <strong>KES 250</strong>
+        </div>
+
+        <div class="menu-item">
+            <h3>Chapati (2)</h3>
+            <p>Soft and freshly prepared chapatis.</p>
+            <strong>KES 100</strong>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Food Gallery</h2>
+    <p>Enjoy a taste of our delicious meals.</p>
+
+    <div class="gallery">
+        <div class="food-card">🍛 Pilau</div>
+        <div class="food-card">🥬 Ugali & Sukuma</div>
+        <div class="food-card">🫓 Chapati</div>
+    </div>
+</section>
+
+<section id="order">
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <input type="text" id="customerName"
+        placeholder="Enter your name" required>
+
+        <input type="tel" id="phone"
+        placeholder="Enter your phone number" required>
+
+        <select id="food" required>
+            <option value="">Select your meal</option>
+            <option value="Pilau">Pilau - KES 350</option>
+            <option value="Ugali & Sukuma">Ugali & Sukuma - KES 250</option>
+            <option value="Chapati (2)">Chapati (2) - KES 100</option>
+        </select>
+
+        <input type="number" id="quantity"
+        placeholder="Enter quantity" min="1" required>
+
+        <button type="submit">Submit Order</button>
+
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Welcome to Mama Njeri's Kitchen.</p>
+    <p>Phone: 0700000000</p>
+    <p>Email: mamanjeriskitchen@gmail.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mama Njeri's Kitchen. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
